@@ -1,0 +1,9 @@
+﻿<bg>
+  <vertical horizontal-fit='PreferredSize' vertical-fit='PreferredSize' preferred-width='90' spacing='0'
+            anchor-max-y='1.60'>
+    <bool-setting text='Classic Note Shader' value='noteshader' apply-on-change='true'/>
+    <bool-setting text='Classic Debris Physics' value='debrisphysics' apply-on-change='true'/>
+    <bool-setting text='Extra Note Effects' value='notefx' apply-on-change='true'/>
+    <bool-setting text='Note Trails' value='notetrails' apply-on-change='true'/>
+  </vertical>
+</bg>
