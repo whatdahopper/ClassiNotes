@@ -54,6 +54,5 @@ public class Plugin
     }
 
     [OnDisable]
-    public void OnDisable()
-    { }
+    public void OnDisable() { }
 }

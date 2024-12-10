@@ -3,9 +3,9 @@
   "id": "ClassiNotes",
   "name": "ClassiNotes",
   "author": "whatdahopper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "They just don't make em' like they used to, this plugin makes the notes and debris look more like 2018 versions of Beat Saber.",
-  "gameVersion": "1.39.1",
+  "gameVersion": "1.40.0",
   "dependsOn": {
     "BSIPA": "^4.2.5",
     "SiraUtil": "^3.1.14",

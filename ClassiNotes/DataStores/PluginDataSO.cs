@@ -5,17 +5,17 @@ namespace ClassiNotes.DataStores;
 [CreateAssetMenu(fileName = "PluginDataSO", menuName = "ClassiNotes/PluginDataSO")]
 public class PluginDataSO : ScriptableObject
 {
-    [SerializeField] private GameObject _noteTrailPS = null!;
-    [SerializeField] private GameObject _bombNoteTrailPS = null!;
+    [SerializeField] GameObject _noteTrailPS = null!;
+    [SerializeField] GameObject _bombNoteTrailPS = null!;
 
-    [SerializeField] private GameObject _noteDirectionSparkles = null!;
-    [SerializeField] private GameObject _noteExplosionSparkles = null!;
-    [SerializeField] private GameObject _bombExplosionSparkles = null!;
+    [SerializeField] GameObject _noteDirectionSparkles = null!;
+    [SerializeField] GameObject _noteExplosionSparkles = null!;
+    [SerializeField] GameObject _bombExplosionSparkles = null!;
 
-    [SerializeField] private Material _noteMaterial = null!;
-    [SerializeField] private Material _noteDebrisMaterial = null!;
+    [SerializeField] Material _noteMaterial = null!;
+    [SerializeField] Material _noteDebrisMaterial = null!;
 
-    [SerializeField] private GameObject _reflectionProbeContainer = null!;
+    [SerializeField] GameObject _reflectionProbeContainer = null!;
 
     public GameObject NoteTrailPS => _noteTrailPS;
     public GameObject BombNoteTrailPS => _bombNoteTrailPS;
